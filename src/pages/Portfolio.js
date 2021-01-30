@@ -4,12 +4,11 @@ import Col from "../components/Col/index";
 import Row from "../components/Row/index";
 import Navbar from "../components/Navbar/index";
 
+import "bootstrap/dist/css/bootstrap.min.css";
 
-class App extends Component {
-  render() {
+
+function Portfolio() {
     return (
-
-
 <Container>
   <Row>
     <Col size="md-12">
@@ -46,6 +45,5 @@ class App extends Component {
 
 };
 
-};
 
 export default Portfolio; 

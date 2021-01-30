@@ -1,21 +1,9 @@
-
-
-
-
-import "bootstrap/dist/css/bootstrap.min.css";
-
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>,
-//   document.getElementById("root")
-// );
-
-// reportWebVitals();
-
 import React from "react";
 import Container from "../components/Container";
+import Col from "../components/Col/index";
+import Row from "../components/Row/index";
 
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function About() {
   return (
@@ -29,7 +17,7 @@ function About() {
         <Row>
           <Col size="md-12">
             <P>
-              Last March I found myself traveling down an unfamiliar track when
+              March 2020 I found myself traveling down an unfamiliar track when
               my job at the MTA ended due to Covid. I asked myself, “What would
               be a valuable new skill to help my career thrive during and after
               Covid? And what field would provide the opportunity for ongoing
