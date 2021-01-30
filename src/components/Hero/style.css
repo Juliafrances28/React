@@ -31,3 +31,17 @@
   padding-top: 140px;
   margin-top: 0;
 }
+
+.hero button {
+  color: lightgray
+}
+
+.hero button :hover {
+  background-color: #11913c;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: right 2s ease-in-out 0.5s;
+  cursor: pointer;
+}
+
+
