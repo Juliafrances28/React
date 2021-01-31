@@ -1,5 +1,5 @@
 import React from "react";
-import Container from "../components/Container";
+import Container from "../components/Container/index";
 import Col from "../components/Col/index";
 import Row from "../components/Row/index";
 
@@ -7,8 +7,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function About() {
   return (
+
     <div>
-      <Container>
+      <Container />
         <Row>
           <Col size="md-12">
             <h1>Welcome To Pupster!</h1>
@@ -16,7 +17,7 @@ function About() {
         </Row>
         <Row>
           <Col size="md-12">
-            <P>
+            <p>
               March 2020 I found myself traveling down an unfamiliar track when
               my job at the MTA ended due to Covid. I asked myself, “What would
               be a valuable new skill to help my career thrive during and after
@@ -26,9 +27,9 @@ function About() {
               was fun and engaging. I was grateful to be able to return to my
               childhood home in New Jersey and in September I began the
               six-month coding bootcamp at Rutgers University.
-            </P>
+            <p>
 
-            <P>
+            <p>
               Turns out that coding is very much like a hobby I’ve enjoyed for
               many years, jigsaw puzzling. I always have one going on my coffee
               table. Coding, like a puzzle, is a series of pieces that need to
@@ -37,10 +38,10 @@ function About() {
               alone or with others. I have found that placing the final piece in
               a challenging jigsaw puzzle feels a lot like the satisfaction of
               seeing the code “work.”
-            </P>
-          </Col>
-        </Row>
-      </Container>
+            </p>
+          <Col>
+        <Row>
+        <Container />
     </div>
   );
 }

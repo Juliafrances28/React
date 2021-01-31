@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../components/Container/index";
 import Col from "../components/Col/index";
 import Row from "../components/Row/index";
-import Navbar from "../components/Navbar/index";
+import Nav from "../components/Nav/index";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 

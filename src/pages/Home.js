@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../components/Hero/index"; 
-
+import Nav from "../components/Nav/index"
  import "bootstrap/dist/css/bootstrap.min.css"; 
 
 function Home() {
