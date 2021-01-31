@@ -1,38 +1,33 @@
-import React, { Component } from "react";
+import React from "react"; 
+
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom"; 
 import "./App.css";
-import { HashRouter as Router, Route } from "react-router-dom";
+import Home from "./pages/Home"; 
+import About from "./pages/About"; 
+import Portfolio from "./pages/Portfolio"; 
+import Contact from "./pages/Contact"; 
+import Resume from "./pages/Resume"; 
+import Nav from "./components/Nav/index";
 
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Portfolio from "./pages/Portfolio";
-import Contact from "./pages/Contact";
-import Resume from "./pages/Resume";
 
-import "bootstrap/dist/css/bootstrap.min.css";
 
-import Navbar from "./components/Navbar/index";
-import Wrapper from "./components/Wrapper/index";
-import Footer from "./components/Footer/index";
 
-class App extends Component {
-  render() {
-    return (
+function App() {
+  return (
+    <Router>
       <div>
-        <div>
-          <Wrapper>
-            <Router>
-              <Navbar />
-              <Route exact path="/" component={Home} />
-              <Route exact path="/about" component={About} />
+        <Nav />
+        <Switch>
+        <Route exact path="/" component={Home} />
+              <Route exact path="/About" component={About} />
               <Route exact path="/portfolio" component={Portfolio} />
-              {/* <Route exact path="/resume" component={Resume} />
-              <Route exact path="/contact" component={Contact} /> */}
-              <Footer />
-            </Router>
-          </Wrapper>
-        </div>
+              <Route exact path="/resume" component={Resume} />
+              <Route exact path="/contact" component={Contact} /> 
+
+        </Switch>
       </div>
-    );
-  }
+    </Router>
+  );
 }
+
 export default App;

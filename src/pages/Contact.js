@@ -1,5 +1,4 @@
-iimport React, { Component } from "react";
-import ReactDom from "react-dom";
+import React, { Component } from "react";
 import Wrapper from "../components/Wrapper/index";
 import Nav from "../components/Nav/index";
 import Card from "../components/Card/index";
@@ -36,5 +35,7 @@ function Contact() {
   );
   
   }; 
+
+  
 
 export default Contact; 
