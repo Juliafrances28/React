@@ -6,8 +6,8 @@ import Footer from "../components/Footer/index";
 
 function Contact() {
   return (
-     <div>   
-     <Nav />
+    <div>
+    <Nav />
       <Wrapper>
       <Card>
 
@@ -25,17 +25,18 @@ function Contact() {
          <h5 class="card-title"> I look forward to hearing from you!!</h5>
          
     <img
-    src="https://www.eu-startups.com/wp-content/uploads/2020/06/woman-coding.jpg"
+    src="https://www.eu-startups.com/wp-content/uploads/2020/06/woman-coding.jpg" alt = "girlCoding"
     width="50%;" />
 
       </Card>
       </Wrapper>
-      <Footer />
+     <Footer />
+     </div>
     
   );
   
   }; 
 
-  
 
-export default Contact; 
+ export default Contact; 
+

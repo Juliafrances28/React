@@ -7,9 +7,10 @@ import Nav from "../components/Nav/index";
 function Portfolio() {
   return (
     <Container>
+      <Nav />
       <Row>
         <Col>
-          <img src="https://user-images.githubusercontent.com/61447353/97765519-c8e33380-1ae8-11eb-8f41-890e1b033923.PNG" />
+          <img src="https://user-images.githubusercontent.com/61447353/97765519-c8e33380-1ae8-11eb-8f41-890e1b033923.PNG" alt= "Covid19" />
 
           <p id="covid">
             I worked as a team player creating an application where people can
@@ -29,7 +30,7 @@ function Portfolio() {
 
       <Row>
         <Col size="md-12">
-          <img src="https://user-images.githubusercontent.com/67694214/" />
+          <img src="https://user-images.githubusercontent.com/67694214/" alt= "Books" />
 
           <p id="books">
             As a member of the same team, we created an app called BookBook.
@@ -37,7 +38,7 @@ function Portfolio() {
               class="BookBook"
               href="https://github.com/Juliafrances28/BookBook"
             >
-              {" "}
+              
               BookBook
             </a>
             is an online community created to allow readers who have the same
