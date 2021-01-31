@@ -7,6 +7,7 @@ import Nav from "../components/Nav/index";
 function Portfolio() {
   return (
     <Container>
+      
       <Nav />
       <Row>
         <Col>
