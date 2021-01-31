@@ -7,10 +7,11 @@ function About() {
   return (
 
     <div>
+      <Nav />
       <Container>
-        <Col>
+        {/* <Col>
         <h1>Welcome To Pupster!</h1>
-        </Col>
+        </Col> */}
         <Row> 
            <p>
               March 2020 I found myself traveling down an unfamiliar track when
