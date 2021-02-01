@@ -1,11 +1,13 @@
 import React from "react";
 import Container from "../components/Container/index";
-import ReactDom from "react-router-dom";
+import Header from "../components/Header/index";
+import Navbar from "../components/Navbar/index";
 
 function Resume() {
   return (
     <div>
-      <Nav />
+      <Header />
+      <Navbar />
       <Container>
         <p>
           <strong>Julia Frances Horan</strong>
@@ -140,7 +142,6 @@ function Resume() {
           <li>Input 350 of the caseworkers notes into Excel daily</li>
           <li>Transferred all clients’ documents to the new data system</li>
         </ul>
-        <p></p>
       </Container>
     </div>
   );

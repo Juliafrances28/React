@@ -41,6 +41,8 @@
   },
   "devDependencies": {
     "@babel/preset-react": "^7.12.10",
-    "@testing-library/jest-dom": "^5.11.9"
+    "@testing-library/jest-dom": "^5.11.9",
+    "css-loader": "^5.0.1",
+    "style-loader": "^2.0.0"
   }
 }
