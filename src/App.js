@@ -9,6 +9,7 @@ import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 import Navbar from "./components/Navbar/index";
 import Header from "./components/Header/index";
+import Footer from "./components/Footer/index";
 
 function App() {
   return (
@@ -27,5 +28,6 @@ function App() {
     </Router>
   );
 }
+<Footer />;
 
 export default App;

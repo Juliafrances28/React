@@ -1,8 +1,9 @@
 import React from "react";
+import "./style.css";
 
 function Header() {
   return (
-    <header className="class">
+    <header className="header">
       <h1>JFH</h1>
     </header>
   );

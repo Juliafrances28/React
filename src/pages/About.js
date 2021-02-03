@@ -1,20 +1,17 @@
 import React from "react";
 import Container from "../components/Container/index";
 import Row from "../components/Row/index";
-import Navbar from "../components/Navbar/index";
-import Header from "../components/Header/index";
 
+import florida from "../florida.jpeg";
+import "./style.css";
 function About() {
   return (
     <div>
-      <Header />
-      <Navbar />
+      {/* navbar and header are rendering twice. If I inspect the webpage, I can delete the elments but they upon refresh of the site they reappear. */}
       <Container>
-        {/* <Col>
-        <h1>Welcome To Pupster!</h1>
-        </Col> */}
+        <img src={florida} className="art" alt="florida" />
         <Row>
-          <p>
+          <p className="text">
             March 2020 I found myself traveling down an unfamiliar track when my
             job at the MTA ended due to Covid. I asked myself, “What would be a
             valuable new skill to help my career thrive during and after Covid?

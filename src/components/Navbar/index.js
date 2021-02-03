@@ -6,10 +6,13 @@ import "./style.css";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    // <nav className="navbar navbar-expand-md">
+    <nav id="navbar-example2" class="navbar navbar-light bg-light">
+      {/* <a class="navbar-brand" href="#"></a> */}
+
       <div>
-        <ul className="navbar-nav">
-          <li className="nav-item">
+        <ul className="navbar">
+          <li className="nav">
             <Link
               to="/"
               className={
@@ -23,7 +26,7 @@ function Navbar() {
             </Link>
           </li>
 
-          <li className="nav-item">
+          <li className="nav">
             <Link
               to="/about"
               className={
@@ -36,7 +39,7 @@ function Navbar() {
             </Link>
           </li>
 
-          <li className="nav-item">
+          <li className="nav">
             <Link
               to="/portfolio"
               className={
@@ -49,7 +52,7 @@ function Navbar() {
             </Link>
           </li>
 
-          <li className="nav-item">
+          <li className="nav">
             <Link
               to="/contact"
               className={
@@ -62,7 +65,7 @@ function Navbar() {
             </Link>
           </li>
 
-          <li className="nav-item">
+          <li className="nav">
             <Link
               to="/resume"
               className={
@@ -79,5 +82,4 @@ function Navbar() {
     </nav>
   );
 }
-
 export default Navbar;

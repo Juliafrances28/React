@@ -1,14 +1,16 @@
 .card {
+  color: black;
   background-size: cover;
   background-position: center;
   background-clip: content-box;
   border: 6px solid white;
   height: 400px;
   width: 400px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   position: relative;
   margin: 0 auto;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .card .fa-spinner {
@@ -16,4 +18,14 @@
   position: absolute;
   left: 25%;
   top: 25%;
+}
+
+.card .h5 {
+  color: black;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+  margin-top: 10px;
 }

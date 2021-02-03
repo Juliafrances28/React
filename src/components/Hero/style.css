@@ -32,14 +32,3 @@
   padding-top: 140px;
   margin-top: 0;
 }
-
-.hero button {
-  color: #44e7ea;
-}
-
-.hero button :hover {
-  background-color: #fff;
-  border: 1px solid #fff;
-  transition: right 2s ease-in-out 0.5s;
-  cursor: pointer;
-}

@@ -1,0 +1,41 @@
+/* This property references the florida/art image in the About page. */
+.art {
+  display: Block;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 50px;
+  width: 50%;
+  text-align: center;
+}
+
+/* This property references the image in the contact page. */
+.girlCoding {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 50px;
+  width: 50%;
+  text-align: center;
+}
+
+/* This property reference the image in the resume page. */
+.link {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 50px;
+  width: 30%;
+  text-align: center;
+  float: left;
+}
+
+/* First half of resume in a container */
+/* .Information {
+  margin-top: 25px;
+} */
+
+/* Second half of resume in a container */
+
+/* .Experience .strong .p {
+  float: right;
+} */
