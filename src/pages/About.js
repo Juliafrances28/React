@@ -7,35 +7,33 @@ import "./style.css";
 function About() {
   return (
     <div>
-      {/* navbar and header are rendering twice. If I inspect the webpage, I can delete the elments but they upon refresh of the site they reappear. */}
-      <Container>
-        <img src={florida} className="art" alt="florida" />
-        <Row>
-          <p className="text">
-            March 2020 I found myself traveling down an unfamiliar track when my
-            job at the MTA ended due to Covid. I asked myself, “What would be a
-            valuable new skill to help my career thrive during and after Covid?
-            And what field would provide the opportunity for ongoing growth?” I
-            decided to learn to coding. After an intro course I was convinced
-            coding was a skill for which I had a propensity. Coding was fun and
-            engaging. I was grateful to be able to return to my childhood home
-            in New Jersey and in September I began the six-month coding bootcamp
-            at Rutgers University.
-          </p>
-        </Row>
-        <Row>
-          <p>
-            Turns out that coding is very much like a hobby I’ve enjoyed for
-            many years, jigsaw puzzling. I always have one going on my coffee
-            table. Coding, like a puzzle, is a series of pieces that need to fit
-            together perfectly. Both can take a long time to complete; both
-            require patience and determination. And both can be done alone or
-            with others. I have found that placing the final piece in a
-            challenging jigsaw puzzle feels a lot like the satisfaction of
-            seeing the code “work.”
-          </p>
-        </Row>
-      </Container>
+      <Container />
+      <img src={florida} className="art" alt="florida" />
+      <Row>
+        <p className="text">
+          March 2020 I found myself traveling down an unfamiliar track when my
+          job at the MTA ended due to Covid. I asked myself, “What would be a
+          valuable new skill to help my career thrive during and after Covid?
+          And what field would provide the opportunity for ongoing growth?” I
+          decided to learn to coding. After an intro course I was convinced
+          coding was a skill for which I had a propensity. Coding was fun and
+          engaging. I was grateful to be able to return to my childhood home in
+          New Jersey and in September I began the six-month coding bootcamp at
+          Rutgers University.
+        </p>
+      </Row>
+      <Row>
+        <p>
+          Turns out that coding is very much like a hobby I’ve enjoyed for many
+          years, jigsaw puzzling. I always have one going on my coffee table.
+          Coding, like a puzzle, is a series of pieces that need to fit together
+          perfectly. Both can take a long time to complete; both require
+          patience and determination. And both can be done alone or with others.
+          I have found that placing the final piece in a challenging jigsaw
+          puzzle feels a lot like the satisfaction of seeing the code “work.”
+        </p>
+      </Row>
+      <Container />
     </div>
   );
 }
