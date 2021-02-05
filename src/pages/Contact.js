@@ -1,10 +1,12 @@
 import React from "react";
 import Card from "../components/Card/index";
+import Container from "../components/Container/index";
 import "./style.css";
 
 function Contact() {
   return (
     <div>
+      <Container />
       <Card>
         <h5 ClassName="card-header" id="Contact">
           Julia Frances Horan
@@ -31,6 +33,7 @@ function Contact() {
         className="girlCoding"
         alt="girlCoding"
       />
+      <Container />
     </div>
   );
 }

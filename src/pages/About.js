@@ -4,12 +4,15 @@ import Row from "../components/Row/index";
 
 import florida from "../florida.jpeg";
 import "./style.css";
+
 function About() {
   return (
     <div>
       <Container />
       <img src={florida} className="art" alt="florida" />
       <Row>
+        <br />
+        <br />
         <p className="text">
           March 2020 I found myself traveling down an unfamiliar track when my
           job at the MTA ended due to Covid. I asked myself, “What would be a
@@ -23,7 +26,7 @@ function About() {
         </p>
       </Row>
       <Row>
-        <p>
+        <p className="text">
           Turns out that coding is very much like a hobby I’ve enjoyed for many
           years, jigsaw puzzling. I always have one going on my coffee table.
           Coding, like a puzzle, is a series of pieces that need to fit together
@@ -33,6 +36,7 @@ function About() {
           puzzle feels a lot like the satisfaction of seeing the code “work.”
         </p>
       </Row>
+
       <Container />
     </div>
   );

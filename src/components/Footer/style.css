@@ -1,15 +1,10 @@
-footer {
-  min-height: 80px;
-  /*   background: #e5e5e5; */
-  position: relative;
-  margin-bottom: auto;
-}
-
-.footer span {
-  position: absolute;
-  bottom: 0;
+.footer {
+  position: fixed;
   left: 0;
-  right: 0;
-  padding: 3px;
-  background: turquoise;
+  bottom: 0;
+  width: 100%;
+  background-color: skyblue;
+  color: black;
+  font-weight: bold;
+  text-align: left;
 }

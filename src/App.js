@@ -7,9 +7,9 @@ import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
+import Footer from "./components/Footer/index";
 import Navbar from "./components/Navbar/index";
 import Header from "./components/Header/index";
-import Footer from "./components/Footer/index";
 
 function App() {
   return (
@@ -24,10 +24,10 @@ function App() {
           <Route exact path="/resume" component={Resume} />
           <Route exact path="/contact" component={Contact} />
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
 }
-<Footer />;
 
 export default App;

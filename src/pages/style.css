@@ -1,11 +1,17 @@
 /* This property references the florida/art image in the About page. */
 .art {
-  display: Block;
+  display: block;
   margin: 0 auto;
   padding: 20px;
   border-radius: 50px;
-  width: 50%;
-  text-align: center;
+  width: 40%;
+  float: left;
+}
+
+/* This is for the paragraph on the About page */
+.text {
+  /* float: left; */
+  margin-right: 30px;
 }
 
 /* This property references the image in the contact page. */
@@ -15,5 +21,44 @@
   padding: 20px;
   border-radius: 50px;
   width: 50%;
+}
+
+/* This property references the image in the resume page. */
+.link {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 50px;
+  width: 40%;
+  float: left;
+}
+
+/* This property references the second container className = skills. This concerns my skills, summary and education */
+
+.skills {
+  float: right;
+}
+
+/* This property references how to  contact me  and websites links to learn  more about my work. */
+.reachme {
+  float: left;
+}
+
+/* This property references my experience at my other jobs */
+.jobs {
+  margin: 7px, 10px;
+  float: left;
+}
+
+/* This property references the <h3> header discusssing my past work experience */
+.experience {
   text-align: center;
 }
+
+/* This property references the bullet points in the experience section of the resume */
+.li {
+  list-style-type: bullets;
+  list-style: "text-align";
+}
+
+/* give the tags specific styling */

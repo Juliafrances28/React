@@ -4,7 +4,7 @@ import "./style.css";
 function Header() {
   return (
     <header className="header">
-      <h1>JFH</h1>
+      <h1>Julia Frances Horan</h1>
     </header>
   );
 }

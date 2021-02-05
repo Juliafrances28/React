@@ -3,9 +3,9 @@ import "./style.css";
 
 function Footer() {
   return (
-    <footer className="footer">
-      <span>Julia Frances Horan 2021</span>
-    </footer>
+    <div class="footer">
+      <p>Julia Frances Horan 2021</p>
+    </div>
   );
 }
 
