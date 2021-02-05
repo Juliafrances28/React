@@ -43,3 +43,9 @@
   ## Repo
 
   https://github.com/Juliafrances28/React
+  
+  <img width="1074" alt="Screen Shot 2021-02-05 at 3 51 46 PM" src="https://user-images.githubusercontent.com/67694214/107088197-96716280-67ca-11eb-9c9f-622fe486c1aa.png">
+<img width="1125" alt="Screen Shot 2021-02-05 at 3 52 02 PM" src="https://user-images.githubusercontent.com/67694214/107088203-983b2600-67ca-11eb-929e-0ec74aafeecc.png">
+<img width="1172" alt="Screen Shot 2021-02-05 at 3 56 18 PM" src="https://user-images.githubusercontent.com/67694214/107088365-da646780-67ca-11eb-9aae-3cb4161d25b9.png">
+<img width="1140" alt="Screen Shot 2021-02-05 at 3 56 34 PM" src="https://user-images.githubusercontent.com/67694214/107088371-dc2e2b00-67ca-11eb-8500-9dd49c9ba311.png">
+<img width="1491" alt="Screen Shot 2021-02-05 at 3 57 04 PM" src="https://user-images.githubusercontent.com/67694214/107088403-e2bca280-67ca-11eb-84c0-a930b962a0ae.png">
