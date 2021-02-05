@@ -1,19 +1,17 @@
 import React from "react";
 import Container from "../components/Container/index";
 import Row from "../components/Row/index";
-import Col from "../components/Col/index";
 import Linkedin2 from "../Linkedin2.jpeg";
-
 import "./style.css";
-{
-  /* same container as image, use percent not pixel */
-}
+
+/* note: same container as image, use percent not pixel */
 
 function Resume() {
   return (
     <div>
-      <Container className="skills">
-        <img src={Linkedin2} className="link" alt="linkedin" />{" "}
+      <Container className="background">
+        <br />
+        <img src={Linkedin2} className="link" alt="linkedin" /> <br />
         <strong>Summary</strong>
         <p>
           Seeking employment in an area that is consistent with experience and
@@ -44,36 +42,38 @@ function Resume() {
           Latrobe,PA
         </p>
         <br />
-        <ul className="reachme">
-          <li>phone: (908) 489-7803 </li>
+        <ul>
+          <li> phone: (908) 489-7803 </li>
           <li>
             Email: <u>julia.horan28@gmail.com</u>{" "}
           </li>
           <li>
             LinkedIn: <u>linkedin.com/in/juliafhoran/</u>{" "}
+            <a className="Julia" href="linkedin.com/in/juliafhoran/">
+              {" "}
+            </a>
           </li>
           <li>
             Portfolio: <u>juliafrances28.github.io/</u>{" "}
+            <a className="Frances" href="juliafrances28.github.io/">
+              {" "}
+            </a>
           </li>
           <li>
             {" "}
-            Github <u>github.com/Juliafrances28</u>{" "}
+            Github: <u>github.com/Juliafrances28</u>{" "}
+            <a className="Git" href="github.com/Juliafrances28"></a>
           </li>
         </ul>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
       </Container>
 
       <Container ClassName="jobs">
-        <br />
         <hr />
         <h3 className="experience">
           <strong>Experience</strong>
         </h3>
         <hr />
+
         <Row>
           <h5>
             Mass Transit Authority Occupation and Health Services | Brooklyn, NY

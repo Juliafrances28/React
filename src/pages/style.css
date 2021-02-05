@@ -35,8 +35,9 @@
 
 /* This property references the second container className = skills. This concerns my skills, summary and education */
 
-.skills {
+.background {
   float: right;
+  margin-left: 10px;
 }
 
 /* This property references how to  contact me  and websites links to learn  more about my work. */
@@ -57,7 +58,7 @@
 
 /* This property references the bullet points in the experience section of the resume */
 .li {
-  list-style-type: bullets;
+  list-style: bullets;
   list-style: "text-align";
 }
 

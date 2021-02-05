@@ -33,6 +33,8 @@ function Contact() {
         className="girlCoding"
         alt="girlCoding"
       />
+      <br />
+      <br />
       <Container />
     </div>
   );
