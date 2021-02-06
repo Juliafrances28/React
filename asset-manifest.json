@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/juliafrances28.github.io/React/static/css/main.0b85a150.chunk.css",
+    "main.js": "/juliafrances28.github.io/React/static/js/main.071e2ec9.chunk.js",
+    "main.js.map": "/juliafrances28.github.io/React/static/js/main.071e2ec9.chunk.js.map",
+    "runtime-main.js": "/juliafrances28.github.io/React/static/js/runtime-main.ff787dae.js",
+    "runtime-main.js.map": "/juliafrances28.github.io/React/static/js/runtime-main.ff787dae.js.map",
+    "static/css/2.150d169a.chunk.css": "/juliafrances28.github.io/React/static/css/2.150d169a.chunk.css",
+    "static/js/2.5c2d67ef.chunk.js": "/juliafrances28.github.io/React/static/js/2.5c2d67ef.chunk.js",
+    "static/js/2.5c2d67ef.chunk.js.map": "/juliafrances28.github.io/React/static/js/2.5c2d67ef.chunk.js.map",
+    "index.html": "/juliafrances28.github.io/React/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/juliafrances28.github.io/React/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.0b85a150.chunk.css.map": "/juliafrances28.github.io/React/static/css/main.0b85a150.chunk.css.map",
+    "static/js/2.5c2d67ef.chunk.js.LICENSE.txt": "/juliafrances28.github.io/React/static/js/2.5c2d67ef.chunk.js.LICENSE.txt",
+    "static/media/Linkedin2.995f8ec5.jpeg": "/juliafrances28.github.io/React/static/media/Linkedin2.995f8ec5.jpeg",
+    "static/media/books.7d1aa824.png": "/juliafrances28.github.io/React/static/media/books.7d1aa824.png",
+    "static/media/florida.bacee35f.jpeg": "/juliafrances28.github.io/React/static/media/florida.bacee35f.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ff787dae.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.5c2d67ef.chunk.js",
+    "static/css/main.0b85a150.chunk.css",
+    "static/js/main.071e2ec9.chunk.js"
+  ]
+}
