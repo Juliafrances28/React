@@ -48,13 +48,17 @@
 /* This property references my experience at my other jobs */
 .jobs {
   margin: 7px, 10px;
-  float: left;
 }
 
 /* This property references the <h3> header discusssing my past work experience */
 .experience {
   text-align: center;
 }
+/* 
+This property references my job history and roles at each job 
+.info {
+ 
+} 
 
 /* This property references the bullet points in the experience section of the resume */
 .li {

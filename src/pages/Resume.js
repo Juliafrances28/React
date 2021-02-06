@@ -48,7 +48,7 @@ function Resume() {
             Email: <u>julia.horan28@gmail.com</u>{" "}
           </li>
           <li>
-            LinkedIn: <u>linkedin.com/in/juliafhoran/</u>{" "}
+            Linkedin: <u>linkedin.com/in/juliafhoran/</u>{" "}
             <a className="Julia" href="linkedin.com/in/juliafhoran/">
               {" "}
             </a>
@@ -66,21 +66,19 @@ function Resume() {
           </li>
         </ul>
       </Container>
-
       <Container ClassName="jobs">
+        ç
         <hr />
         <h3 className="experience">
           <strong>Experience</strong>
         </h3>
         <hr />
-
         <Row>
           <h5>
             Mass Transit Authority Occupation and Health Services | Brooklyn, NY
             12/2018 – 7/25/2020
           </h5>
         </Row>
-
         <Row>
           <strong>Administrative Assistant</strong>
         </Row>
