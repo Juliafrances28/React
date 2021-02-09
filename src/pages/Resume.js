@@ -67,7 +67,6 @@ function Resume() {
         </ul>
       </Container>
       <Container ClassName="jobs">
-        ç
         <hr />
         <h3 className="experience">
           <strong>Experience</strong>
