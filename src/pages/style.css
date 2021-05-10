@@ -52,7 +52,7 @@
 
 /* This property references the <h3> header discusssing my past work experience */
 .experience {
-  text-align: center;
+  text-align: left;
 }
 /* 
 This property references my job history and roles at each job 

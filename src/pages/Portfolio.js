@@ -30,6 +30,10 @@ function Portfolio() {
               </a>
               including facility information and documentation required in order
               to stop the <br /> spread of this pandemic.
+              <button type="Git">Github</button>
+              <input type="text" id="git" name="name" />
+              <button type="Linkedin">linkedin</button>
+              <input type="text" id="link" name="name" />
             </p>
 
             <br />
