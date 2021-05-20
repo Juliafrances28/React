@@ -67,3 +67,10 @@ This property references my job history and roles at each job
 }
 
 /* give the tags specific styling */
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+}
