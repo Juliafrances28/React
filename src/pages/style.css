@@ -63,12 +63,6 @@ This property references my job history and roles at each job
 /* This property references the bullet points in the experience section of the resume */
 .li {
   list-style: bullets;
-  display: flex;
-  flex-direction: row;
-  /* justify-content: center;
-  justify-content: space-between; */
-  border-left: 10px;
-  border-right: 10px;
 }
 
 /* give the tags specific styling */
@@ -76,8 +70,8 @@ This property references my job history and roles at each job
 .row {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  justify-content: space-between;
+  /* justify-content: center;
+  justify-content: space-between; */
   border-left: 10px;
   border-right: 10px;
 }

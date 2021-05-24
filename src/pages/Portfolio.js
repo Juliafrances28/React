@@ -29,11 +29,8 @@ function Portfolio() {
                 Covid19{" "}
               </a>
               including facility information and documentation required in order
-              to stop the <br /> spread of this pandemic.
-              <button type="Git">Github</button>
-              <input type="text" id="git" name="name" />
-              <button type="Linkedin">linkedin</button>
-              <input type="text" id="link" name="name" />
+              to stop the <br /> spread of this pandemic. Deployed site:
+              covid-19: https://rquiroz32.github.io/Covid-19_TestingApp/
             </p>
 
             <br />
@@ -55,7 +52,34 @@ function Portfolio() {
               </a>{" "}
               is an online community <br /> created to allow readers who have
               the same reading interests and live nearby to connect and share
-              books.
+              books. Deployed site: BookBook
+              https://github.com/Juliafrances28/BookBook
+            </p>
+          </Col>
+        </Row>
+        <br />
+
+        <Row>
+          <Col size="md-12">
+            <img src={Food} className="home" alt="Food" />
+            <p id="books">
+              <br />
+              As a member of the same team, we created an app called
+              theresFoodatHome.{" "}
+              <a
+                className="Food"
+                href="https://github.com/johnsondavid1107/theresFoodAtHome"
+              >
+                {" "}
+                BookBook{" "}
+              </a>{" "}
+              is an online app <br /> created for users to avoid food waste and
+              encourage them to eat at home. The goal was to work towards
+              eliminating food waste. Therefoodathome helps the users keep track
+              of the expiration date on the food they purchased. It also offers
+              suggsted recipes to use up foods that will expire soon. Deployed
+              site: theresFoodAtHome
+              https://github.com/johnsondavid1107/theresFoodAtHome
             </p>
           </Col>
         </Row>
