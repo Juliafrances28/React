@@ -61,17 +61,16 @@ function Portfolio() {
 
         <Row>
           <Col size="md-12">
-            <img src={Food} className="home" alt="Food" />
-            <p id="books">
+            <img src={"Food"} className="home" alt="Food" />
+            <p id="food">
               <br />
-              As a member of the same team, we created an app called
-              theresFoodatHome.{" "}
+              As a team, we created an app called theresFoodatHome.{" "}
               <a
                 className="Food"
-                href="https://github.com/johnsondavid1107/theresFoodAtHome"
+                href="https://user-images.githubusercontent.com/67694214/110022152-91d09900-7cf9-11eb-99b4-0355902b042c.png"
               >
                 {" "}
-                BookBook{" "}
+                theresFoodatHome{" "}
               </a>{" "}
               is an online app <br /> created for users to avoid food waste and
               encourage them to eat at home. The goal was to work towards
