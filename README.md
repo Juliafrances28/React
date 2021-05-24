@@ -40,9 +40,9 @@
   ## Email 
   julia.horan28@gmail.com
 
-  ## Repo
+  ## Site link 
 
-  https://github.com/Juliafrances28/React
+https://juliafrances28.github.io/React/
   
   <img width="1074" alt="Screen Shot 2021-02-05 at 3 51 46 PM" src="https://user-images.githubusercontent.com/67694214/107088197-96716280-67ca-11eb-9c9f-622fe486c1aa.png">
 <img width="1125" alt="Screen Shot 2021-02-05 at 3 52 02 PM" src="https://user-images.githubusercontent.com/67694214/107088203-983b2600-67ca-11eb-929e-0ec74aafeecc.png">
