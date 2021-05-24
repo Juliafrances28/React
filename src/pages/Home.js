@@ -12,16 +12,13 @@ function Home() {
       </Hero>
       <div>
         <Row>
-          <h4> 908-489-7803 </h4>
-          
-          <h4> julia.horan28@gmail.com </h4>
-          <h4>
+          <h4 className="home">
             {" "}
-            <a href="https://www.linkedin.com/in/juliafhoran/"> Linkedin </a>
-          </h4>
-          <h4>
-            {" "}
-            <a href="https://github.com/Juliafrances28"> github </a>{" "}
+            || 908-489-7803 | julia.horan28@gmail.com |{" "}
+            <a href="https://www.linkedin.com/in/juliafhoran/">
+              {" "}
+              Linkedin{" "}
+            </a> | <a href="https://github.com/Juliafrances28"> github </a>
           </h4>
         </Row>
       </div>
