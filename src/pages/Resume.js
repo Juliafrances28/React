@@ -42,144 +42,35 @@ function Resume() {
           Latrobe,PA
         </p>
         <br />
-        <ul>
-          <li> phone: (908) 489-7803 </li>
-          <li>
-            Email: <u>julia.horan28@gmail.com</u>{" "}
-          </li>
-          <li>
-            Linkedin: <u>linkedin.com/in/juliafhoran/</u>{" "}
+        <Row>
+          <h4>
+            phone: (908) 489-7803 | Email: <u>julia.horan28@gmail.com</u> |
+            Linkedin: <u> juliafhoran </u>{" "}
             <a className="Julia" href="linkedin.com/in/juliafhoran/">
               {" "}
             </a>
-          </li>
-          <li>
-            Portfolio: <u>juliafrances28.github.io/</u>{" "}
-            <a className="Frances" href="juliafrances28.github.io/">
+            Portfolio: <u>juliafrances28.github.io</u>{" "}
+            <a className="Frances" href="juliafrances28.github.io/portfolio">
+              {" "}
+            </a>{" "}
+            | Github: <u> Juliafrances28</u>{" "}
+            <a className="Git" href="https://juliafrances28.github.io/">
               {" "}
             </a>
-          </li>
-          <li>
-            {" "}
-            Github: <u>github.com/Juliafrances28</u>{" "}
-            <a className="Git" href="github.com/Juliafrances28"></a>
-          </li>
-        </ul>
+          </h4>
+        </Row>
       </Container>
       <Container ClassName="jobs">
         <hr />
-        <h3 className="experience">
-          <strong>Experience</strong>
+        <h3 className="resume">
+          <a href="https://docs.google.com/document/d/1aOlPxVrf4iAZI5i4O27D75v84Ol97347obTqCPMjTNQ/edit?usp=sharing">
+            <strong>
+              {" "}
+              <u> Resume </u>{" "}
+            </strong>{" "}
+          </a>{" "}
         </h3>
         <hr />
-        <Row>
-          <h5>
-            Mass Transit Authority Occupation and Health Services | Brooklyn, NY
-            12/2018 – 7/25/2020
-          </h5>
-        </Row>
-        <Row>
-          <strong>Administrative Assistant</strong>
-        </Row>
-        <Row>
-          <ul>
-            <li>
-              Gathered status reports from supervisors on employees status to
-              confirm testing availability
-            </li>
-
-            <li>
-              Tracked daily attendance of 10-50 employees at required medical
-              appointments
-            </li>
-
-            <li>
-              Input random testing information into ACCESS database to verify
-              employee attended test
-            </li>
-
-            <li>
-              Made and received phone calls daily in regards to employees being
-              sent for testing
-            </li>
-          </ul>
-        </Row>
-        <Row>
-          <h5>Barnes and Noble | Manhattan, NY 10/2018 – 12/2018</h5>
-        </Row>
-        <Row>
-          <strong>Sales Associate, Seasonal </strong>
-        </Row>
-        <Row>
-          <ul className="bullets">
-            <li>
-              Helped customers locate Books, make suggestions and create store
-              displays
-            </li>
-            <li>Finalized customers transactions through the POS Terminal</li>
-            <li>
-              Maintain an orderly sales floor, restocked and regulate inventory
-              as needed
-            </li>
-          </ul>
-        </Row>
-        <Row>
-          <h5>Brightpoint Health | Manhattan, NY 05/2018 – 09/2018</h5>
-        </Row>
-        <Row>
-          <strong>Data Specialist</strong>
-        </Row>
-        <Row>
-          <ul className="bullets">
-            <li>
-              Managed a data migration project between two database systems
-            </li>
-            <li>
-              Performed audit and reconciliation covering data integrity among
-              four EMRs
-            </li>
-            <li>
-              Screened patients’ records to avoid red flags to ensure
-              information conforms to data validation
-            </li>
-          </ul>
-        </Row>
-        <Row>
-          <h5>
-            NYC Department of Social Services - Office of Disciplinary Affairs |
-            Manhattan, NY 05/2017 – 05/2018
-          </h5>
-        </Row>
-        <Row>
-          <strong>Administrative Assistant</strong>
-        </Row>
-        <Row>
-          <ul className="bullets">
-            <li>
-              Performed data entry and data retrieval of case files to the TEAMS
-              database
-            </li>
-            <li>Processed incoming/outgoing mail and distributed the mail</li>
-            <li>
-              Handled a busy phone line with over 60 calls daily and assisted
-              members of the public with requests
-            </li>
-            <li>Responsible for organizing and preparing file fulders</li>
-          </ul>
-        </Row>
-        <Row>
-          <h5>Brightpoint Health | Queens, NY 11/2016 – 05/2017</h5>
-        </Row>
-        <Row>
-          <strong>Data Specialist</strong>
-        </Row>
-        <Row>
-          <ul className="bullets">
-            <li>Created records to be uploaded for billing</li>
-            <li>Input 350 of the caseworkers notes into Excel daily</li>
-            <li>Transferred all clients’ documents to the new data system</li>
-          </ul>
-        </Row>
       </Container>
     </div>
   );

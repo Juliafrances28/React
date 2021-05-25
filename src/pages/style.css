@@ -72,11 +72,11 @@ This property references my job history and roles at each job
   flex-direction: row;
   /* justify-content: center;
   justify-content: space-between; */
-  border-left: 10px;
+
   border-right: 10px;
 }
 
 /* This property refers to the contact info on the homepage */
 .home {
-  text-align: center;
+  border-left: 15px;
 }

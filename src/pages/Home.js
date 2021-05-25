@@ -14,7 +14,7 @@ function Home() {
         <Row>
           <h4 className="home">
             {" "}
-            || 908-489-7803 | julia.horan28@gmail.com |{" "}
+            ||| 908-489-7803 | julia.horan28@gmail.com |{" "}
             <a href="https://www.linkedin.com/in/juliafhoran/">
               {" "}
               Linkedin{" "}
