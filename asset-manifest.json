@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React/static/css/main.30510966.chunk.css",
-    "main.js": "/React/static/js/main.6955d708.chunk.js",
-    "main.js.map": "/React/static/js/main.6955d708.chunk.js.map",
+    "main.js": "/React/static/js/main.71cb2cf4.chunk.js",
+    "main.js.map": "/React/static/js/main.71cb2cf4.chunk.js.map",
     "runtime-main.js": "/React/static/js/runtime-main.bd452465.js",
     "runtime-main.js.map": "/React/static/js/runtime-main.bd452465.js.map",
     "static/css/2.150d169a.chunk.css": "/React/static/css/2.150d169a.chunk.css",
@@ -13,14 +13,15 @@
     "static/css/main.30510966.chunk.css.map": "/React/static/css/main.30510966.chunk.css.map",
     "static/js/2.5c2d67ef.chunk.js.LICENSE.txt": "/React/static/js/2.5c2d67ef.chunk.js.LICENSE.txt",
     "static/media/Linkedin2.995f8ec5.jpeg": "/React/static/media/Linkedin2.995f8ec5.jpeg",
-    "static/media/books.80a46401.png": "/React/static/media/books.80a46401.png",
-    "static/media/florida.bacee35f.jpeg": "/React/static/media/florida.bacee35f.jpeg"
+    "static/media/books.80a46401.jpeg": "/React/static/media/books.80a46401.jpeg",
+    "static/media/florida.bacee35f.jpeg": "/React/static/media/florida.bacee35f.jpeg",
+    "static/media/food.25a96bf0.jpeg": "/React/static/media/food.25a96bf0.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.bd452465.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.5c2d67ef.chunk.js",
     "static/css/main.30510966.chunk.css",
-    "static/js/main.6955d708.chunk.js"
+    "static/js/main.71cb2cf4.chunk.js"
   ]
 }
