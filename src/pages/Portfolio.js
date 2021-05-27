@@ -16,6 +16,7 @@ function Portfolio() {
             <br />
             <img
               src="https://user-images.githubusercontent.com/61447353/97765519-c8e33380-1ae8-11eb-8f41-890e1b033923.PNG"
+              className="health"
               alt="Covid19"
             />
 
@@ -89,12 +90,12 @@ function Portfolio() {
                 {" "}
                 theresFoodatHome{" "}
               </a>{" "}
-              is an online app <br /> created for users to avoid food waste and
+              is an online app created for users to avoid food waste and
               encourage them to eat at home. The goal was to work towards
-              eliminating food waste. Therefoodathome helps the users keep track
-              of the expiration date on the food they purchased. It also offers
-              suggsted recipes to use up foods that will expire soon. Deployed
-              site: theresFoodAtHome :
+              eliminating food waste. theresFoodAtHome helps the users keep
+              track of the expiration date on the food they purchased. It also
+              offers suggsted recipes to use up foods that will expire soon.
+              Deployed site: theresFoodAtHome :
               https://github.com/johnsondavid1107/theresFoodAtHome
             </p>
           </Col>

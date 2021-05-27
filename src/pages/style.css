@@ -45,20 +45,15 @@
   float: left;
 }
 
-/* This property references my experience at my other jobs */
+/* This property references my experience at my other jobs
 .jobs {
   margin: 7px, 10px;
 }
 
-/* This property references the <h3> header discusssing my past work experience */
+ This property references the <h3> header discusssing my past work experience 
 .resume {
   text-align: left;
-}
-/* 
-This property references my job history and roles at each job 
-.info {
- 
-} 
+ }   */
 
 /* This property references the bullet points in the experience section of the resume */
 .li {
@@ -84,4 +79,31 @@ This property references my job history and roles at each job
 /* This property refers to the contact info on the resume page  */
 .contact {
   border-right: 10px;
+}
+
+.health {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 50px;
+  width: 40%;
+  float: left;
+}
+
+.read {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 50px;
+  width: 40%;
+  float: left;
+}
+
+.home {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 50px;
+  width: 40%;
+  float: left;
 }
