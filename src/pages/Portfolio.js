@@ -2,7 +2,9 @@ import React from "react";
 import Container from "../components/Container/index";
 import Col from "../components/Col/index";
 import Row from "../components/Row/index";
-import books from "../books.png";
+import Food from "../food.jpeg";
+// import Books from "../books.jpeg";
+
 import "./style.css";
 
 function Portfolio() {
@@ -30,7 +32,13 @@ function Portfolio() {
               </a>
               including facility information and documentation required in order
               to stop the <br /> spread of this pandemic. Deployed site:
-              covid-19: https://rquiroz32.github.io/Covid-19_TestingApp/
+              <a
+                className="pandemic"
+                href="https://rquiroz32.github.io/Covid-19_TestingApp/"
+                Covid-19_TestingApp
+              >
+                {" "}
+              </a>
             </p>
 
             <br />
@@ -39,7 +47,11 @@ function Portfolio() {
 
         <Row>
           <Col size="md-12">
-            <img src={books} className="read" alt="books" />
+            <img
+              src="https://user-images.githubusercontent.com/67694214/102821989-18860300-43a6-11eb-8313-25c2dc512b7a.png"
+              className="read"
+              alt="books"
+            />
             <p id="books">
               <br />
               As a member of the same team, we created an app called BookBook.{" "}
@@ -52,8 +64,13 @@ function Portfolio() {
               </a>{" "}
               is an online community <br /> created to allow readers who have
               the same reading interests and live nearby to connect and share
-              books. Deployed site: BookBook
-              https://github.com/Juliafrances28/BookBook
+              books. Deployed site: BookBook{" "}
+              <a
+                className="reading"
+                href="https://github.com/Juliafrances28/BookBook"
+              >
+                {" "}
+              </a>
             </p>
           </Col>
         </Row>
@@ -61,13 +78,13 @@ function Portfolio() {
 
         <Row>
           <Col size="md-12">
-            <img src={"Food"} className="home" alt="Food" />
+            <img src={Food} className="home" alt="Food" />
             <p id="food">
               <br />
               As a team, we created an app called theresFoodatHome.{" "}
               <a
                 className="Food"
-                href="https://user-images.githubusercontent.com/67694214/110022152-91d09900-7cf9-11eb-99b4-0355902b042c.png"
+                href="https://github.com/johnsondavid1107/theresFoodAtHome"
               >
                 {" "}
                 theresFoodatHome{" "}
@@ -77,7 +94,7 @@ function Portfolio() {
               eliminating food waste. Therefoodathome helps the users keep track
               of the expiration date on the food they purchased. It also offers
               suggsted recipes to use up foods that will expire soon. Deployed
-              site: theresFoodAtHome
+              site: theresFoodAtHome :
               https://github.com/johnsondavid1107/theresFoodAtHome
             </p>
           </Col>

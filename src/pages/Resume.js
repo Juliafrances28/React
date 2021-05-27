@@ -43,34 +43,17 @@ function Resume() {
         </p>
         <br />
         <Row>
-          <h4>
-            phone: (908) 489-7803 | Email: <u>julia.horan28@gmail.com</u> |
-            Linkedin: <u> juliafhoran </u>{" "}
-            <a className="Julia" href="linkedin.com/in/juliafhoran/">
-              {" "}
-            </a>
-            Portfolio: <u>juliafrances28.github.io</u>{" "}
-            <a className="Frances" href="juliafrances28.github.io/portfolio">
-              {" "}
+          <hr />
+          <h3 className="contact">
+            <a href="https://docs.google.com/document/d/1aOlPxVrf4iAZI5i4O27D75v84Ol97347obTqCPMjTNQ/edit?usp=sharing">
+              <strong> Resume </strong>{" "}
             </a>{" "}
-            | Github: <u> Juliafrances28</u>{" "}
-            <a className="Git" href="https://juliafrances28.github.io/">
-              {" "}
-            </a>
-          </h4>
+            | 908-489-7803 | julia.horan28@gmail.com |{" "}
+            <a href="https://www.linkedin.com/in/juliafhoran/"> Linkedin </a> |{" "}
+            <a href="https://github.com/Juliafrances28"> github </a>
+          </h3>
+          <hr />
         </Row>
-      </Container>
-      <Container ClassName="jobs">
-        <hr />
-        <h3 className="resume">
-          <a href="https://docs.google.com/document/d/1aOlPxVrf4iAZI5i4O27D75v84Ol97347obTqCPMjTNQ/edit?usp=sharing">
-            <strong>
-              {" "}
-              <u> Resume </u>{" "}
-            </strong>{" "}
-          </a>{" "}
-        </h3>
-        <hr />
       </Container>
     </div>
   );

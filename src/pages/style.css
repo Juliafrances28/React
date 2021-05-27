@@ -51,7 +51,7 @@
 }
 
 /* This property references the <h3> header discusssing my past work experience */
-.experience {
+.resume {
   text-align: left;
 }
 /* 
@@ -76,7 +76,12 @@ This property references my job history and roles at each job
   border-right: 10px;
 }
 
-/* This property refers to the contact info on the homepage */
+/* This property refers to the contact info on the home page */
 .home {
   border-left: 15px;
+}
+
+/* This property refers to the contact info on the resume page  */
+.contact {
+  border-right: 10px;
 }
