@@ -12,9 +12,9 @@ function Home() {
       </Hero>
       <div>
         <Row>
-          <h4 className="home">
+          <h4 className="homepage">
             {" "}
-            ||| 908-489-7803 | julia.horan28@gmail.com |{" "}
+            || 908-489-7803 | julia.horan28@gmail.com |{" "}
             <a href="https://www.linkedin.com/in/juliafhoran/">
               {" "}
               Linkedin{" "}

@@ -45,22 +45,10 @@
   float: left;
 }
 
-/* This property references my experience at my other jobs
-.jobs {
-  margin: 7px, 10px;
-}
-
- This property references the <h3> header discusssing my past work experience 
-.resume {
-  text-align: left;
- }   */
-
 /* This property references the bullet points in the experience section of the resume */
 .li {
   list-style: bullets;
 }
-
-/* give the tags specific styling */
 
 .row {
   display: flex;
@@ -72,8 +60,9 @@
 }
 
 /* This property refers to the contact info on the home page */
-.home {
-  border-left: 15px;
+.homepage {
+  text-align: justify;
+  padding: 50px;
 }
 
 /* This property refers to the contact info on the resume page  */
@@ -81,6 +70,7 @@
   border-right: 10px;
 }
 
+/* This property refers the covid-19 project on my porfolio page */
 .health {
   display: block;
   margin: 0 auto;
@@ -90,6 +80,13 @@
   float: left;
 }
 
+/* This property refers the <p> tag on the bookbook project on my porfolio page */
+
+.books {
+  float: left;
+}
+
+/* This property refers to the img for bookbook project on the porfolio page  */
 .read {
   display: block;
   margin: 0 auto;
@@ -97,13 +94,16 @@
   border-radius: 50px;
   width: 40%;
   float: left;
+  margin-bottom: 20px;
 }
 
-.home {
+/* This property refers to  img for theresFoodatHome on the porfolio page */
+
+.homefood {
   display: block;
-  margin: 0 auto;
+  margin-bottom: 30px;
   padding: 20px;
   border-radius: 50px;
   width: 40%;
-  float: left;
+  float: right;
 }
