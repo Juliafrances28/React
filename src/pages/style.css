@@ -52,7 +52,7 @@
   justify-content: space-between; 
 
   border-right: 10px;
-} */
+} 
 
 /* This property refers to the contact info on the resume page  */
 .contact {
@@ -66,7 +66,7 @@
   text-align: center;
 }
 
-/* This property refers the covid-19 project on my porfolio page */
+/* This property refers the covid-19 project on my portfolio page */
 .health {
   display: block;
   margin: 0 auto;
@@ -76,13 +76,13 @@
   float: left;
 }
 
-/* This property refers the <p> tag on the covid-19 project on my porfolio page */
+/* This property refers the <p> tag on the covid-19 project on my portfolio page */
 
 .covid {
   margin-top: 20px;
 }
 
-/* This property refers to the img for bookbook project on the porfolio page  */
+/* This property refers to the img for bookbook project on the portfolio page  */
 .read {
   display: block;
   margin: 0 auto;
@@ -90,10 +90,9 @@
   border-radius: 50px;
   width: 80%;
   float: right;
-  margin-bottom: 50px;
 }
 
-/* This property refers to  img for theresFoodatHome on the porfolio page */
+/* This property refers to  img for theresFoodatHome on the portfolio page */
 
 .homefood {
   display: block;
