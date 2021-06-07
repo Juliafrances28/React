@@ -13,15 +13,7 @@ function Portfolio() {
       <Container>
         <Row>
           <Col size="md-6">
-            <br />
-            <img
-              src="https://user-images.githubusercontent.com/61447353/97765519-c8e33380-1ae8-11eb-8f41-890e1b033923.PNG"
-              className="health"
-              alt="Covid19"
-            />
-          </Col>
-          <Col size="md-6">
-            <p id="covid">
+            <p className="covid">
               <br />
               <br />I worked as a team player creating an application where
               people can get information on where to get tested for
@@ -59,48 +51,13 @@ function Portfolio() {
               image tag, and the layout and used css to style my page.
             </p>
           </Col>
-        </Row>
-
-        <Row>
           <Col size="md-6">
-            <p id="food">
-              <br />
-              <br />
-              <br />
-              As a team, we created an app called theresFoodatHome.{" "}
-              <a
-                className="Food"
-                href="https://github.com/johnsondavid1107/theresFoodAtHome"
-              >
-                {" "}
-                theresFoodatHome{" "}
-              </a>
-              is an online app created for users to avoid food waste and
-              encourage them to eat at home. The goal was to work towards
-              eliminating food waste. theresFoodAtHome helps the users keep
-              track of the expiration date on the food they purchased. It also
-              offers suggsted recipes to use up foods that will expire soon.
-              Deployed site:
-              <a
-                className="Food"
-                href="https://theres-food-at-home.herokuapp.com/"
-              >
-                {" "}
-                theres-food-at-home{" "}
-              </a>
-            </p>
             <br />
-            <p>
-              My role in this project was to do the styling for the Sign Up and
-              Sign In pages. I worked. I focused primarily on styling aspects
-              for both pages using css to generate a cleaner appearance to the
-              page. This includes adding images and a title to the header
-              section, including a navbar with links, additionally adding
-              buttons and a footer.
-            </p>
-          </Col>
-          <Col size="md-6">
-            <img src={Food} className="homefood" alt="Food" />
+            <img
+              src="https://user-images.githubusercontent.com/61447353/97765519-c8e33380-1ae8-11eb-8f41-890e1b033923.PNG"
+              className="health"
+              alt="Covid19"
+            />
           </Col>
         </Row>
 
@@ -154,6 +111,48 @@ function Portfolio() {
               colors and styled everything to make it fun and eye catching to
               ultimately encourage someone to join.
             </p>
+          </Col>
+        </Row>
+        <Row>
+          <Col size="md-6">
+            <p id="food">
+              <br />
+              <br />
+              <br />
+              As a team, we created an app called theresFoodatHome.{" "}
+              <a
+                className="Food"
+                href="https://github.com/johnsondavid1107/theresFoodAtHome"
+              >
+                {" "}
+                theresFoodatHome{" "}
+              </a>
+              is an online app created for users to avoid food waste and
+              encourage them to eat at home. The goal was to work towards
+              eliminating food waste. theresFoodAtHome helps the users keep
+              track of the expiration date on the food they purchased. It also
+              offers suggsted recipes to use up foods that will expire soon.
+              Deployed site:
+              <a
+                className="Food"
+                href="https://theres-food-at-home.herokuapp.com/"
+              >
+                {" "}
+                theres-food-at-home{" "}
+              </a>
+            </p>
+            <br />
+            <p>
+              My role in this project was to do the styling for the Sign Up and
+              Sign In pages. I worked. I focused primarily on styling aspects
+              for both pages using css to generate a cleaner appearance to the
+              page. This includes adding images and a title to the header
+              section, including a navbar with links, additionally adding
+              buttons and a footer.
+            </p>
+          </Col>
+          <Col size="md-6">
+            <img src={Food} className="homefood" alt="Food" />
           </Col>
         </Row>
       </Container>

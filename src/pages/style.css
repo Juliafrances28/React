@@ -45,29 +45,25 @@
   float: left;
 }
 
-/* This property references the bullet points in the experience section of the resume */
-.li {
-  list-style: bullets;
-}
-
-.row {
+/* .row {
   display: flex;
   flex-direction: row;
   /* justify-content: center;
-  justify-content: space-between; */
+  justify-content: space-between; 
 
+  border-right: 10px;
+} */
+
+/* This property refers to the contact info on the resume page  */
+.contact {
   border-right: 10px;
 }
 
 /* This property refers to the contact info on the home page */
 .homepage {
-  text-align: justify;
-  padding: 50px;
-}
-
-/* This property refers to the contact info on the resume page  */
-.contact {
-  border-right: 10px;
+  padding-left: 50px;
+  padding-top: none;
+  text-align: center;
 }
 
 /* This property refers the covid-19 project on my porfolio page */
@@ -76,14 +72,14 @@
   margin: 0 auto;
   padding: 20px;
   border-radius: 50px;
-  width: 40%;
+  width: 80%;
   float: left;
 }
 
-/* This property refers the <p> tag on the bookbook project on my porfolio page */
+/* This property refers the <p> tag on the covid-19 project on my porfolio page */
 
-.books {
-  float: left;
+.covid {
+  margin-top: 20px;
 }
 
 /* This property refers to the img for bookbook project on the porfolio page  */
@@ -92,9 +88,9 @@
   margin: 0 auto;
   padding: 20px;
   border-radius: 50px;
-  width: 40%;
-  float: left;
-  margin-bottom: 20px;
+  width: 80%;
+  float: right;
+  margin-bottom: 50px;
 }
 
 /* This property refers to  img for theresFoodatHome on the porfolio page */
@@ -104,6 +100,7 @@
   margin-bottom: 30px;
   padding: 20px;
   border-radius: 50px;
-  width: 40%;
-  float: right;
+  width: 80%;
+  float: left;
+  margin-bottom: 50px;
 }
