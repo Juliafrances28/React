@@ -14,10 +14,10 @@ function Navbar() {
         <ul className="navbar">
           <li className="nav">
             <Link
-              to="/"
+              to="/React"
               className={
-                window.location.pathname === "/" ||
-                window.location.pathname === "/home"
+                window.location.pathname === "/React" ||
+                window.location.pathname === "/React"
                   ? "nav-link active"
                   : "nav-link"
               }
