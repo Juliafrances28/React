@@ -36,11 +36,14 @@
   ## Username
   juliafrances28
 
-
+   
   ## Email 
   julia.horan28@gmail.com
+  
+  ## Repo link 
+  https://github.com/Juliafrances28/React/tree/main
 
-  ## Site link 
+  ## Deployed link 
 
 https://juliafrances28.github.io/React/
   
