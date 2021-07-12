@@ -16,14 +16,7 @@ function Portfolio() {
             <p className="covid">
               <br />
               <br />I worked as a team player creating an application where
-              people can get information on where to get tested for
-              <a
-                className="covid-19"
-                href="https://github.com/rquiroz32/Covid-19_TestingApp"
-              >
-                {" "}
-                Covid19{" "}
-              </a>
+              people can get information on where to get tested for covid-19
               including facility information and documentation required in order
               to stop the spread of this pandemic. Deployed site:
               <a
@@ -33,10 +26,23 @@ function Portfolio() {
                 {" "}
                 Covid-19_TestingApp{" "}
               </a>
+              github:
+              <a
+                className="covid-19"
+                href="https://github.com/rquiroz32/Covid-19_TestingApp"
+              >
+                {" "}
+                Covid19{" "}
+              </a>
             </p>
 
             <p id="more">
-              My role in this project was to create the
+              My role in this project was to create the moreinfo page. The
+              front-end team used Material UI as our framework. This page allows
+              people to get more information on covid-19 testing including the
+              value of getting tested and frequently asked questions. I included
+              many design elements including, a header, an image tag, and the
+              layout and used css to style my page. My work:
               <a
                 className="moreInfo"
                 href="https://rquiroz32.github.io/Covid-19_TestingApp/moreInfo.html"
@@ -44,11 +50,6 @@ function Portfolio() {
                 {" "}
                 moreInfo{" "}
               </a>
-              page. The front-end team used Material UI as our framework. This
-              page allows people to get more information on covid-19 testing
-              including the value of getting tested and frequently asked
-              questions. I included many design elements including, a header, an
-              image tag, and the layout and used css to style my page.
             </p>
           </Col>
           <Col size="md-6">
@@ -75,13 +76,6 @@ function Portfolio() {
               <br />
               <br />
               As a member of the same team, we created an app called BookBook.{" "}
-              <a
-                className="BookBook"
-                href="https://github.com/Juliafrances28/BookBook"
-              >
-                {" "}
-                BookBook{" "}
-              </a>{" "}
               is an online community created to allow readers who have the same
               reading interests and live nearby to connect and share books.
               Deployed site:
@@ -92,10 +86,25 @@ function Portfolio() {
                 {" "}
                 Reading{" "}
               </a>
+              github:
+              <a
+                className="BookBook"
+                href="https://github.com/Juliafrances28/BookBook"
+              >
+                {" "}
+                BookBook{" "}
+              </a>{" "}
             </p>
             <br />
             <p className="books">
               My role in this project was to design the form for the
+              registration page. The front-end team used material UI as our
+              framework library. I also added multiple design elements which
+              improve the viewer appeal of the page. This includes, the header,
+              the navbar with the cute dancing book animation and the image of
+              the books. I created the proper layout and added buttons. I
+              coordinated the colors and styled everything to make it fun and
+              eye catching to ultimately encourage someone to join. My work:
               <a
                 className="registration"
                 href="https://pacific-harbor-27397.herokuapp.com/registration"
@@ -103,13 +112,6 @@ function Portfolio() {
                 {" "}
                 Registration{" "}
               </a>
-              page. The front-end team used material UI as our framework
-              library. I also added multiple design elements which improve the
-              viewer appeal of the page. This includes, the header, the navbar
-              with the cute dancing book animation and the image of the books. I
-              created the proper layout and added buttons. I coordinated the
-              colors and styled everything to make it fun and eye catching to
-              ultimately encourage someone to join.
             </p>
           </Col>
         </Row>
@@ -119,26 +121,27 @@ function Portfolio() {
               <br />
               <br />
               <br />
-              As a team, we created an app called theresFoodatHome.{" "}
-              <a
-                className="Food"
-                href="https://github.com/johnsondavid1107/theresFoodAtHome"
-              >
-                {" "}
-                theresFoodatHome{" "}
-              </a>
-              is an online app created for users to avoid food waste and
-              encourage them to eat at home. The goal was to work towards
-              eliminating food waste. theresFoodAtHome helps the users keep
-              track of the expiration date on the food they purchased. It also
-              offers suggsted recipes to use up foods that will expire soon.
-              Deployed site:
+              As a team, we created an app called theresFoodatHome.
+              theresFoodatHome is an online app created for users to avoid food
+              waste and encourage them to eat at home. The goal was to work
+              towards eliminating food waste. theresFoodAtHome helps the users
+              keep track of the expiration date on the food they purchased. It
+              also offers suggsted recipes to use up foods that will expire
+              soon. Deployed site:
               <a
                 className="Food"
                 href="https://theres-food-at-home.herokuapp.com/"
               >
                 {" "}
                 theres-food-at-home{" "}
+              </a>
+              github:
+              <a
+                className="Food"
+                href="https://github.com/johnsondavid1107/theresFoodAtHome"
+              >
+                {" "}
+                theresFoodatHome{" "}
               </a>
             </p>
             <br />

@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 import Container from "../components/Container/index";
 import Row from "../components/Row/index";
 import Linkedin2 from "../Linkedin2.jpeg";

@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../components/Hero/index";
-import Row from "../components/row/index";
+import Row from "../components/Row/index";
 import "./style.css";
 
 function Home() {
