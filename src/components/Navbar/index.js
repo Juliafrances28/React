@@ -17,7 +17,7 @@ function Navbar() {
               to="/React"
               className={
                 window.location.pathname === "/React" ||
-                window.location.pathname === "/React"
+                window.location.pathname === "/home"
                   ? "nav-link active"
                   : "nav-link"
               }
