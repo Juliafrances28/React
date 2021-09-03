@@ -15,7 +15,7 @@
 
   ## Installation
   First, npm create-react-app my-app 
- Then install the following:  npm install, npm install express , npm install bootstrap
+ Then install the following:  npm install, npm install express , npm install bootstrap. Note: if this code is downloaded to your local machine use npm run start to run the site 
 
   ## Usage 
   To create a site that will showcase my new skills and the work I  have done to future to potential employers. 
