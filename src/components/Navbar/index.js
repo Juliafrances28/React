@@ -7,7 +7,7 @@ import "./style.css";
 function Navbar() {
   return (
     // <nav className="navbar navbar-expand-md">
-    <nav id="navbar-example2" class="navbar navbar-light bg-light">
+    <nav id="navbar-example2" className="navbar navbar-light bg-light">
       {/* <a class="navbar-brand" href="#"></a> */}
 
       <div>
@@ -28,7 +28,7 @@ function Navbar() {
 
           <li className="nav">
             <Link
-              to="/about"
+              to="about"
               className={
                 window.location.pathname === "/about"
                   ? "nav-link active"
@@ -41,7 +41,7 @@ function Navbar() {
 
           <li className="nav">
             <Link
-              to="/portfolio"
+              to="portfolio"
               className={
                 window.location.pathname === "/portfolio"
                   ? "nav-link active"
@@ -54,7 +54,7 @@ function Navbar() {
 
           <li className="nav">
             <Link
-              to="/contact"
+              to="contact"
               className={
                 window.location.pathname === "/contact"
                   ? "nav-link active"
@@ -67,7 +67,7 @@ function Navbar() {
 
           <li className="nav">
             <Link
-              to="/resume"
+              to="resume"
               className={
                 window.location.pathname === "/resume"
                   ? "nav-link active"
