@@ -11,14 +11,17 @@
      * [License](#License)
      
   ## Description
-  To create a  website using  the latest technology, react. 
+  To create a  website using  the latest technology, react 
 
   ## Installation
   First, npm create-react-app my-app 
- Then install the following:  npm install, npm install express , npm install bootstrap
+ Then install the following:  npm install, npm install express, npm install bootstrap 
+ 
+  ## Running
+   To run the site off your local machince use the following command: npm run start
 
   ## Usage 
-  To create a site that will showcase my new skills and the work I  have done to future to potential employers. 
+  To create a site that will showcase my background and new skills to potential future employeers
 
   ## license 
    MIT
@@ -27,11 +30,8 @@
   ## Contributed
   It was a solo project. 
 
-  ## Tested
-   Run node index.js 
-
   ## Questions 
-   Please reach out 
+   Please reach out to me
 
   ## Username
   juliafrances28
@@ -44,8 +44,7 @@
   https://github.com/Juliafrances28/React/tree/main
 
   ## Deployed link 
-
-https://juliafrances28.github.io/React/
+   https://sheltered-ridge-19730.herokuapp.com/
   
   <img width="1074" alt="Screen Shot 2021-02-05 at 3 51 46 PM" src="https://user-images.githubusercontent.com/67694214/107088197-96716280-67ca-11eb-9c9f-622fe486c1aa.png">
 <img width="1125" alt="Screen Shot 2021-02-05 at 3 52 02 PM" src="https://user-images.githubusercontent.com/67694214/107088203-983b2600-67ca-11eb-929e-0ec74aafeecc.png">
