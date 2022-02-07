@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/React/static/css/main.4d7f27d2.chunk.css",
+    "main.js": "/React/static/js/main.4b258980.chunk.js",
+    "main.js.map": "/React/static/js/main.4b258980.chunk.js.map",
+    "runtime-main.js": "/React/static/js/runtime-main.8ce7defb.js",
+    "runtime-main.js.map": "/React/static/js/runtime-main.8ce7defb.js.map",
+    "static/css/2.d6008dad.chunk.css": "/React/static/css/2.d6008dad.chunk.css",
+    "static/js/2.4dac1739.chunk.js": "/React/static/js/2.4dac1739.chunk.js",
+    "static/js/2.4dac1739.chunk.js.map": "/React/static/js/2.4dac1739.chunk.js.map",
+    "index.html": "/React/index.html",
+    "static/css/2.d6008dad.chunk.css.map": "/React/static/css/2.d6008dad.chunk.css.map",
+    "static/css/main.4d7f27d2.chunk.css.map": "/React/static/css/main.4d7f27d2.chunk.css.map",
+    "static/js/2.4dac1739.chunk.js.LICENSE.txt": "/React/static/js/2.4dac1739.chunk.js.LICENSE.txt",
+    "static/media/Linkedin2.995f8ec5.jpeg": "/React/static/media/Linkedin2.995f8ec5.jpeg",
+    "static/media/florida.bacee35f.jpeg": "/React/static/media/florida.bacee35f.jpeg",
+    "static/media/food.52be2167.jpeg": "/React/static/media/food.52be2167.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ce7defb.js",
+    "static/css/2.d6008dad.chunk.css",
+    "static/js/2.4dac1739.chunk.js",
+    "static/css/main.4d7f27d2.chunk.css",
+    "static/js/main.4b258980.chunk.js"
+  ]
+}
